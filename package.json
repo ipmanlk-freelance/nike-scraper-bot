@@ -1,0 +1,21 @@
+{
+  "name": "nike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "discord.js": "^12.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^8.0.0",
+    "zombie": "^6.1.4"
+  }
+}
