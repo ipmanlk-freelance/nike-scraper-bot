@@ -1,6 +1,11 @@
 {
   "WEBHOOKS": [
-    "https://discord.com/api/webhooks/826319039194202122/dDev-CRI77eG_dh8_k1fk6oSCN0jkvXsvy78ch7PTgNh8DYqT_KagvEg3O8XqsTtqO5p"
+    "https://discord.com/api/webhooks/826319039194202122/dDev-CRI77eG_dh8_k1fk6oSCN0jkvXsvy78ch7PTgNh8DYqT_KagvEg3O8XqsTtqO5p",
+    "https://discord.com/api/webhooks/826329001718054962/1e77poiGWgQT8eW4_KUbjMaj0lpYJ01yCnfQS-qJKBwkHo2iM9t0OJDHKXrXFvxB621A"
   ],
-  "CHECK_DELAY": "1"
+  "CHECK_DELAY": "1",
+  "EMBED": {
+    "USERNAME": "Nike Alert",
+    "AVATAR_URL": "https://i.imgur.com/MIFoYMK.png"
+  }
 }

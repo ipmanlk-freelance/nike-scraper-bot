@@ -13,8 +13,8 @@ const init = () => {
 			let discordData;
 			if (listing.type == "video") {
 				discordData = {
-					username: "Nike Alert",
-					avatar_url: "https://i.imgur.com/MIFoYMK.png",
+					username: config.EMBED.USERNAME,
+					avatar_url: config.EMBED.AVATAR_URL,
 					embeds: [
 						{
 							title: listing.data.altText,
@@ -34,8 +34,8 @@ const init = () => {
 				};
 			} else {
 				discordData = {
-					username: "Nike Alert",
-					avatar_url: "https://i.imgur.com/MIFoYMK.png",
+					username: config.EMBED.USERNAME,
+					avatar_url: config.EMBED.AVATAR_URL,
 					embeds: [
 						{
 							title: `${listing.data.title} ${listing.data.subtitle}`,
@@ -80,4 +80,7 @@ const init = () => {
 		});
 };
 
-setTimeout(init, config.CHECK_DELAY * 60000);
+setInterval(() => {
+	init();
+	console.log("Checking for new products");
+}, config.CHECK_DELAY * 60000);
